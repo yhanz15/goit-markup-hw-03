@@ -9,6 +9,25 @@ body {
   background-color: #ffffff;
 }
 
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.container {
+  width: 1158px;
+}
+.nav-container {
+  width: 1440px;
+  height: 72px;
+  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
+  background: var(--WHITE, #fff);
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .logo {
   color: var(--IRIS, #4d5ae5);
   font-family: Raleway, sans-serif;
@@ -18,18 +37,25 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  padding: 156px;
+  text-align: left;
 }
 
 .link {
   text-decoration: none;
+  padding-right: 40px;
 }
 
 .textlogo {
   color: var(--NAVY-BLUE, #2e2f42);
+  padding-right: 76px;
 }
 
 .list {
   list-style-type: none;
+  display: inline-flex;
+  align-items: flex-start;
+  padding-left: 76px;
 }
 
 .nav-links .link {
@@ -50,6 +76,10 @@ body {
 
 .contacts {
   font-style: normal;
+  top: 24px;
+  left: 940px;
+  position: absolute;
+  padding-right: 332px;
 }
 
 .link:hover {
@@ -60,17 +90,26 @@ body {
 }
 
 .first {
+  top: 72px;
+  left: 0px;
   background-color: #2e2f42;
+  width: 1440px;
+  height: 600px;
+  position: absolute;
 }
 .first-header {
-  text-transform: uppercase;
   color: var(--WHITE, #fff);
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  position: absolute;
   text-align: center;
+  margin-top: 188px;
+  margin-left: 472px;
+  margin-right: 472px;
 }
+
 .button {
   background: #4d5ae5;
   font-family: Roboto, sans-serif;
@@ -80,6 +119,16 @@ body {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
+  position: absolute;
+  padding-top: 10px;
+  margin-top: 356px;
+  margin-left: 636px;
+  display: flex;
+  padding: 16px 32px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  flex-shrink: 1;
+  border-radius: 4px;
+  text-align: center;
 }
 
 .button:hover {
@@ -88,21 +137,35 @@ body {
 .button:focus {
   background-color: #404bbf;
 }
+.second-list {
+  margin-top: 108px;
+  list-style-type: none;
+  display: inline-flex;
+  align-items: flex-start;
+  padding-left: 156px;
+}
 
 .list-header {
+  margin-top: 120px;
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 0.02em;
   line-height: 1.2;
   color: #2e2f42;
+  padding-bottom: 8px;
 }
 
 .textlist {
+  width: 264px;
+  height: auto;
+  margin-top: 8px;
   color: var(--SLATE, #434455);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-right: 24px;
+  margin-bottom: 0px;
 }
 
 .third,
@@ -114,6 +177,17 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+
+.third-list {
+  list-style-type: none;
+  display: inline-flex;
+  align-items: flex-start;
+  padding-left: 156px;
+  gap: 24px;
+}
+.fourth {
+  margin-top: 0px;
 }
 
 .fourth-section {
@@ -132,6 +206,9 @@ body {
 }
 
 .footer-logotext {
+  height: 312px;
+  align-items: center;
+  padding-left: 156px;
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
