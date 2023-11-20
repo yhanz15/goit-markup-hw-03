@@ -18,8 +18,6 @@ body {
   background: var(--WHITE, #fff);
   height: 72px;
   flex-shrink: 0;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
-    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 .container {
   display: flex;
@@ -82,8 +80,11 @@ body {
 }
 
 .contacts {
+  top: 8px;
+  left: 940px;
   font-style: normal;
   margin-top: -1.5px;
+  position: absolute;
 }
 
 .link:hover {
@@ -315,7 +316,6 @@ section {
 
 .portfolio-section {
   padding: 96px 0 120px 0;
-  height: 1692px;
 }
 
 .portfolio {
@@ -385,8 +385,4 @@ section {
   color: #2e2f42;
   margin-bottom: 8px;
   text-align: center;
-}
-
-.bod {
-  height: 1692px;
 }
