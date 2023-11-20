@@ -94,10 +94,11 @@ body {
   color: #404bbf;
 }
 /* 1st Section */
-section {
+
+.section {
   padding: 120px 0;
 }
-.section {
+.container-first {
   padding: 188px 0;
 }
 .container-section {
@@ -153,15 +154,12 @@ section {
 .second {
   display: flex;
   list-style-type: none;
+  gap: 24px;
 }
 .container-second {
   margin: 0 108px;
 }
 
-.second-list {
-  margin-right: 24px;
-  flex-basis: calc((100%-72px) / 4);
-}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -176,6 +174,7 @@ section {
   overflow: hidden;
 }
 .list-header {
+  flex-basis: calc((100%-72px) / 4);
   margin-top: 120px;
   font-size: 20px;
   font-weight: 500;
@@ -201,7 +200,6 @@ section {
 /* 3rd Section*/
 
 .third {
-  margin-top: -344px;
   margin-left: 409px;
   margin-bottom: 72px;
   color: var(--NAVY-BLUE, #2e2f42);
@@ -232,7 +230,6 @@ section {
 /* 4th Section*/
 
 .container-fourth {
-  margin-top: -272px;
   background-color: #f4f4fd;
   width: 1440px;
   height: 732px;
