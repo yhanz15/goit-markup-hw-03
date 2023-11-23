@@ -384,6 +384,9 @@ ul {
   text-decoration: none;
   gap: 32px;
 }
+.container-portfolio {
+  height: 1692px;
+}
 .portpolio-header {
   font-size: 20px;
   font-weight: 500;
