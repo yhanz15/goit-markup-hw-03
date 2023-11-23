@@ -1,22 +1,11 @@
 :root {
   --iriscolor: #4d5ae5;
-  --navyblue: #2e2f42;
-  --navcolor: black;
-  --oceancolor: #404bbf;
-  --whitecolor: #ffffff;
-  --slatecolor: #434455;
-  --cornflowercolor: #e7e9fc;
-  --cloudcolor: #f4f4fd;
-  --greencolor: #31d0aa;
-  --lightslatecolor: #8e8f99;
-  --navybluemodalcolor: #2e2f42;
-  --greycolor: #2e2f42;
-  --dairycolor: #fcfcfc;
 }
 
 /* Main Page */
 
 body {
+  width: 1440px;
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -118,6 +107,7 @@ ul {
 }
 
 .hero-section {
+  margin-left: -8px;
   padding: 188px 0;
   display: flex;
   justify-content: center;
@@ -134,10 +124,10 @@ ul {
   line-height: 1.07;
   letter-spacing: 0.02em;
   margin-bottom: 40px;
-  padding-left: 472px;
+  padding-left: 324px;
 }
 .button {
-  margin-left: 636px;
+  margin-left: 480px;
   padding: 16px 32px;
   display: block;
   height: 56px;
@@ -161,6 +151,12 @@ ul {
 }
 
 /* 2nd Section */
+.container-second {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .second {
   display: flex;
@@ -170,6 +166,7 @@ ul {
 .second-list {
   width: calc((100%-72px) / 4);
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -184,7 +181,6 @@ ul {
   overflow: hidden;
 }
 .list-header {
-  margin-top: 120px;
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -208,9 +204,10 @@ ul {
 
 /* 3rd Section*/
 
+.third-container {
+  padding-top: 224px;
+}
 .third {
-  margin-top: -344px;
-  margin-left: 409px;
   margin-bottom: 72px;
   color: var(--NAVY-BLUE, #2e2f42);
   display: flex;
@@ -220,33 +217,33 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.third-list,
-.fourth-list {
+.third-list {
   display: flex;
   list-style-type: none;
   gap: 24px;
 }
-.container-third {
-  margin: 0 108px;
-}
+
 .listing {
   flex-basis: calc((100%-48px) / 3);
-  display: block;
-}
-.container-four {
-  margin: 0 108px;
 }
 
 /* 4th Section*/
 
-.container-fourth {
-  margin-top: -272px;
-  background-color: #f4f4fd;
+.fourth-list {
+  display: flex;
+  list-style-type: none;
+  gap: 24px;
+  justify-content: center;
+  margin-right: 24px;
+}
+
+.fourth-container {
   width: 1440px;
+  margin-top: -104px;
+  background-color: #f4f4fd;
   height: 732px;
 }
 .fourth {
-  padding-top: 88px;
   justify-content: center;
   margin-bottom: 72px;
   color: var(--NAVY-BLUE, #2e2f42);
@@ -258,14 +255,19 @@ ul {
   text-transform: capitalize;
 }
 .fourth-listing {
+  height: 380px;
   flex-basis: calc((100%-72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  background: var(--WHITE, #fff);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
-.container-image {
-  padding: 32px 0;
-  display: block;
+.employee-name {
+  padding-bottom: 32px;
 }
 .fourth-header {
+  padding-top: 32px;
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -276,9 +278,6 @@ ul {
 }
 .text-list {
   text-align: center;
-  width: 264px;
-  height: auto;
-  margin-top: 8px;
   color: var(--SLATE, #434455);
   font-size: 16px;
   font-weight: 400;
@@ -289,20 +288,20 @@ ul {
 
 /*footer*/
 
-.container-foot {
-  margin: 0 156px;
-}
 .below {
-  margin-top: -252px;
-  margin-left: -8px;
   background-color: var(--NAVY-BLUE, #2e2f42);
   padding: 100px 0;
 }
+.footing {
+  margin: -120px -30px;
+}
+
 .text-logo {
   color: #f4f4fd;
 }
+
 .footer-logotext {
-  margin-top: 17.5px;
+  margin-top: 8px;
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
@@ -355,7 +354,6 @@ ul {
   border-top: none;
   margin-bottom: 8px;
   height: 420px;
-  padding-bottom: 0px;
 }
 
 .btn {
