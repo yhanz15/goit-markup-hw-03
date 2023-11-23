@@ -334,7 +334,6 @@ ul {
 }
 
 .portfolio-list {
-  margin: 0 108px;
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
