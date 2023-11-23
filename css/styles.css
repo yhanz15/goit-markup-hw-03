@@ -382,6 +382,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
+  gap: 32px;
 }
 .portpolio-header {
   font-size: 20px;
@@ -390,5 +391,13 @@ ul {
   line-height: 1.2;
   color: #2e2f42;
   margin-bottom: 8px;
-  text-align: center;
+  text-align: start;
+}
+.portfolio-text {
+  color: var(--SLATE, #434455);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: start;
 }
