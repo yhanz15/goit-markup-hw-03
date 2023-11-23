@@ -1,5 +1,17 @@
 :root {
-  --iris: #4d5ae5;
+  --iriscolor: #4d5ae5;
+  --navyblue: #2e2f42;
+  --navcolor: black;
+  --oceancolor: #404bbf;
+  --whitecolor: #ffffff;
+  --slatecolor: #434455;
+  --cornflowercolor: #e7e9fc;
+  --cloudcolor: #f4f4fd;
+  --greencolor: #31d0aa;
+  --lightslatecolor: #8e8f99;
+  --navybluemodalcolor: #2e2f42;
+  --greycolor: #2e2f42;
+  --dairycolor: #fcfcfc;
 }
 
 /* Main Page */
@@ -17,6 +29,19 @@ img {
   width: 100%;
   height: auto;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 /* Header */
 
 .header {
@@ -88,36 +113,30 @@ img {
 }
 
 /* 1st Section */
-section {
+.section {
   padding: 120px 0;
 }
-.section {
+
+.hero-section {
   padding: 188px 0;
-}
-.container-section {
-  top: 80px;
-  left: 0;
-  width: 1440px;
-  background-color: #2e2f42;
-  height: 600px;
-  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: var(--navyblue);
 }
 
 .first-header {
   max-width: 496px;
-  text-align: center;
-  justify-content: center;
-  margin-top: 188px;
-  margin-left: 472px;
-  display: flex;
   color: var(--WHITE, #fff);
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  margin-bottom: 40px;
+  padding-left: 472px;
 }
 .button {
-  justify-content: center;
   margin-left: 636px;
   padding: 16px 32px;
   display: block;
@@ -125,19 +144,18 @@ section {
   border: none;
   min-width: 169px;
   background: #4d5ae5;
-  font-family: Roboto, sans-serif;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
   border-radius: 4px;
 }
 
-.button:hover {
-  background-color: #404bbf;
-}
+.button:hover,
 .button:focus {
   background-color: #404bbf;
 }
@@ -146,15 +164,11 @@ section {
 
 .second {
   display: flex;
-  list-style-type: none;
-}
-.container-second {
-  margin: 0 108px;
+  gap: 24px;
 }
 
 .second-list {
-  margin-right: 24px;
-  flex-basis: calc((100%-72px) / 4);
+  width: calc((100%-72px) / 4);
 }
 .visually-hidden {
   position: absolute;
