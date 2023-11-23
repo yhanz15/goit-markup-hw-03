@@ -361,6 +361,9 @@ ul {
   padding: 12px 24px;
   border: 1px solid #e7e9fc;
 }
+.services {
+  width: calc((100% - 48px) / 3);
+}
 
 .btn:hover {
   color: #ffffff;
@@ -378,7 +381,6 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  width: calc((100% - 48px) / 3);
   text-decoration: none;
 }
 .portpolio-header {
