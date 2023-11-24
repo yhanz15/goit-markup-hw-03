@@ -335,6 +335,8 @@ ul {
 
 .portfolio-list {
   list-style-type: none;
+  align-items: flex-start;
+  justify-content: space-evenly;
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
@@ -363,6 +365,7 @@ ul {
 }
 .services {
   width: calc((100% - 48px) / 3);
+  height: 420px;
 }
 
 .btn:hover {
