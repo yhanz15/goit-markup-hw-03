@@ -349,6 +349,7 @@ ul {
   border-top: none;
   padding: 32px 16px;
   background: var(--WHITE, #fff);
+  margin-bottom: 8px;
 }
 
 .btn {
@@ -366,6 +367,7 @@ ul {
 }
 .services {
   width: calc((100% - 48px) / 3);
+  text-decoration: none;
 }
 
 .btn:hover,
@@ -388,7 +390,6 @@ ul {
   line-height: 1.2;
   color: #2e2f42;
   text-align: start;
-  margin-bottom: 8px;
 }
 .portfolio-text {
   color: var(--SLATE, #434455);
