@@ -335,9 +335,8 @@ ul {
 
 .portfolio-list {
   list-style-type: none;
-  align-items: flex-start;
-  justify-content: space-evenly;
   display: flex;
+  align-items: flex-start;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
@@ -348,6 +347,7 @@ ul {
   border-top: none;
   margin-bottom: 8px;
   padding: 32px 16px;
+  background: var(--WHITE, #fff);
 }
 
 .btn {
@@ -395,7 +395,6 @@ ul {
   letter-spacing: 0.02em;
   line-height: 1.2;
   color: #2e2f42;
-  margin-bottom: 8px;
   text-align: start;
 }
 .portfolio-text {
