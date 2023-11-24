@@ -369,16 +369,13 @@ ul {
   width: calc((100% - 48px) / 3);
 }
 
-.btn:hover {
-  color: #ffffff;
-  background-color: #404bbf;
-  border: 1px solid transparent;
-}
+.btn:hover,
 .btn:focus {
   color: #ffffff;
   background-color: #404bbf;
   border: 1px solid transparent;
 }
+
 .linking {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 16px;
