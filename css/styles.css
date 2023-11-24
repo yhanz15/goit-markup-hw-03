@@ -365,7 +365,6 @@ ul {
 }
 .services {
   width: calc((100% - 48px) / 3);
-  height: 420px;
 }
 
 .btn:hover {
