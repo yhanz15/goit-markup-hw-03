@@ -394,6 +394,7 @@ ul {
   text-align: start;
 }
 .portfolio-text {
+  margin-bottom: 8px;
   color: var(--SLATE, #434455);
   font-size: 16px;
   font-weight: 400;
