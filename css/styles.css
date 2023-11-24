@@ -391,6 +391,7 @@ ul {
   line-height: 1.2;
   color: #2e2f42;
   text-align: start;
+  margin-bottom: 8px;
 }
 .portfolio-text {
   color: var(--SLATE, #434455);
