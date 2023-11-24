@@ -334,6 +334,8 @@ ul {
 }
 
 .portfolio-list {
+  width: 1158px;
+  margin: 0px;
   list-style-type: none;
   display: flex;
   align-items: flex-start;
@@ -384,7 +386,6 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
-  gap: 32px;
 }
 .container-portfolio {
   height: 1692px;
