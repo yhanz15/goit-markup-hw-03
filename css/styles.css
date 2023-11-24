@@ -19,18 +19,6 @@ img {
   height: auto;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul {
-  margin: 0;
-  padding: 0;
-}
-
 /* Header */
 
 .header {
@@ -368,7 +356,6 @@ ul {
 }
 .services {
   width: calc((100% - 48px) / 3);
-  text-decoration: none;
 }
 
 .btn:hover,
@@ -378,14 +365,11 @@ ul {
   border: 1px solid transparent;
 }
 
-.linking {
-  color: var(--NAVY-BLUE, #2e2f42);
-}
 .container-portfolio {
   height: 1692px;
 }
 .portpolio-header {
-  gap: 8px;
+  margin-bottom: 8px;
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -393,8 +377,8 @@ ul {
   color: #2e2f42;
   text-align: start;
 }
+
 .portfolio-text {
-  margin-bottom: 8px;
   color: var(--SLATE, #434455);
   font-size: 16px;
   font-weight: 400;
