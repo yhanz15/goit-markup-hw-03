@@ -1,5 +1,17 @@
 :root {
   --iriscolor: #4d5ae5;
+  --navyblue: #2e2f42;
+  --navcolor: black;
+  --oceancolor: #404bbf;
+  --whitecolor: #ffffff;
+  --slatecolor: #434455;
+  --cornflowercolor: #e7e9fc;
+  --cloudcolor: #f4f4fd;
+  --greencolor: #31d0aa;
+  --lightslatecolor: #8e8f99;
+  --navybluemodalcolor: #2e2f42;
+  --greycolor: #2e2f42;
+  --dairycolor: #fcfcfc;
 }
 
 /* Main Page */
@@ -97,13 +109,13 @@ img {
 }
 
 .hero-section {
+  background-color: var(--navyblue);
   margin-left: -8px;
   padding: 188px 0;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: var(--navyblue);
 }
 
 .first-header {
@@ -195,9 +207,12 @@ img {
 /* 3rd Section*/
 
 .third-container {
+  margin: 0 108px;
   padding-top: 224px;
 }
 .third {
+  margin-top: -344px;
+  margin-left: 409px;
   margin-bottom: 72px;
   color: var(--NAVY-BLUE, #2e2f42);
   display: flex;
