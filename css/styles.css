@@ -48,7 +48,6 @@ img {
 .container-flex {
   display: flex;
   justify-content: space-between;
-  height: 72px;
 }
 
 .navigation {
@@ -244,7 +243,7 @@ img {
 
 .fourth-container {
   width: 1440px;
-  margin-top: -104px;
+  padding-top: 120px;
   background-color: #f4f4fd;
   height: 732px;
 }
@@ -270,6 +269,8 @@ img {
 }
 .employee-name {
   padding: 32px 0;
+  text-align: center;
+  margin-top: -24px;
 }
 .fourth-header {
   font-size: 20px;
@@ -278,10 +279,9 @@ img {
   line-height: 1.2;
   color: #2e2f42;
   margin-bottom: 8px;
-  text-align: center;
 }
+
 .text-list {
-  text-align: center;
   color: var(--SLATE, #434455);
   font-size: 16px;
   font-weight: 400;
@@ -299,6 +299,7 @@ img {
 .footing {
   margin: -120px -30px;
 }
+
 
 .text-logo {
   color: #f4f4fd;
@@ -339,7 +340,7 @@ img {
 
 .portfolio-list {
   width: 1158px;
-  margin: 0px;
+  margin: -48px;
   list-style-type: none;
   display: flex;
   align-items: flex-start;
@@ -353,6 +354,7 @@ img {
   border-top: none;
   padding: 32px 16px;
   background: var(--WHITE, #fff);
+  text-align: start;
 }
 
 .btn {
@@ -380,16 +382,7 @@ img {
 }
 
 .container-portfolio {
-  height: 1692px;
-}
-.portpolio-header {
-  margin-bottom: 8px;
-  font-size: 20px;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.2;
-  color: #2e2f42;
-  text-align: start;
+  margin-bottom: 120px;
 }
 
 .portfolio-text {
@@ -398,7 +391,6 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: start;
 }
 .linkin {
   text-decoration: none;
