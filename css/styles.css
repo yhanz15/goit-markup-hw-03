@@ -13,6 +13,17 @@
   --greycolor: #2e2f42;
   --dairycolor: #fcfcfc;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
 
 /* Main Page */
 
@@ -238,8 +249,7 @@ img {
   list-style-type: none;
   gap: 24px;
   justify-content: center;
-  margin-left: 84px;
-  width: 1158px;
+  margin-right: 48px;
 }
 
 .fourth-container {
@@ -339,13 +349,14 @@ img {
 
 .portfolio-list {
   width: 1158px;
-  margin: -48px;
+  margin-left: -48px;
   list-style-type: none;
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  padding-top: 48px;
 }
 
 .container-imaging {
@@ -394,6 +405,6 @@ img {
 .linkin {
   text-decoration: none;
 }
-.port-head h3 {
+.port-head {
   margin-bottom: 8px;
 }
