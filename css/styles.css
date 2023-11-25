@@ -300,7 +300,6 @@ img {
   margin: -120px -30px;
 }
 
-
 .text-logo {
   color: #f4f4fd;
 }
@@ -394,4 +393,7 @@ img {
 }
 .linkin {
   text-decoration: none;
+}
+.port-head {
+  margin-bottom: 8px;
 }
