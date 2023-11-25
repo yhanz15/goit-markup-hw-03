@@ -238,7 +238,8 @@ img {
   list-style-type: none;
   gap: 24px;
   justify-content: center;
-  margin-right: 24px;
+  margin-left: 84px;
+  width: 1158px;
 }
 
 .fourth-container {
