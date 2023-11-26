@@ -164,7 +164,6 @@ img {
 
 /* 2nd Section */
 .container-second {
-  height: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -211,7 +210,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-left: 0px;
-  margin-bottom: 120px;
 }
 
 /* 3rd Section*/
@@ -222,7 +220,7 @@ img {
 }
 .third {
   margin-top: -344px;
-  margin-left: 409px;
+  justify-content: center;
   margin-bottom: 72px;
   color: var(--NAVY-BLUE, #2e2f42);
   display: flex;
@@ -253,10 +251,11 @@ img {
 }
 
 .fourth-container {
+  margin-top: -72px;
   width: 1440px;
   padding-top: 120px;
   background-color: #f4f4fd;
-  height: 732px;
+  height: 612px;
 }
 .fourth {
   justify-content: center;
