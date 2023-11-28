@@ -117,12 +117,12 @@ img {
 /* 1st Section */
 
 .hero-section {
-  background-color: var(--navyblue);
+  background-color: var(--navyblue, #2e2f42);
   padding: 188px 0;
 }
 
 .first-header {
-  margin-left: 334px;
+  margin: auto;
   max-width: 496px;
   color: var(--WHITE, #fff);
   font-size: 56px;
@@ -132,7 +132,7 @@ img {
   margin-bottom: 48px;
 }
 .button {
-  margin-left: 480px;
+  margin: auto;
   padding: 16px 32px;
   display: block;
   height: 56px;
@@ -239,7 +239,6 @@ img {
   margin-top: -120px;
   width: 1440px;
   background-color: #f4f4fd;
-  height: 732px;
 }
 .fourth {
   justify-content: center;
