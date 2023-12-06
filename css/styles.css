@@ -122,6 +122,7 @@ img {
 }
 
 .first-header {
+  text-align: center;
   margin: auto;
   max-width: 496px;
   color: var(--WHITE, #fff);
@@ -193,7 +194,7 @@ img {
   width: 264px;
   height: auto;
 }
-.common {
+.paragraph {
   color: var(--SLATE, #434455);
   font-size: 16px;
   font-weight: 400;
@@ -238,7 +239,7 @@ img {
   padding: 120px;
   margin-top: -120px;
   width: 1440px;
-  background-color: #f4f4fd;
+  background-color: var(--cloudcolor, #f4f4fd);
 }
 .fourth {
   justify-content: center;
@@ -272,7 +273,7 @@ img {
   padding: 100px 0;
 }
 .footing {
-  margin: -120px 0 -8px -8px;
+  margin-top: -120px;
 }
 
 .text-logo {
@@ -305,15 +306,11 @@ img {
 }
 
 .portfolio-list {
-  width: 1158px;
-  margin: 0;
   list-style-type: none;
   display: flex;
-  align-items: flex-start;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  margin-bottom: 120px;
 }
 
 .container-imaging {
